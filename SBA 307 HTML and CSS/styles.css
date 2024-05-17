@@ -1,0 +1,97 @@
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 5%, 88%);
+}
+
+header {
+    background-color: #479ae8;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.intro img, .intro .intro-gif {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #479ae8;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.intro {
+    animation: fadeIn 2s ease-in;
+}
+
+.form-container {
+    animation: fadeIn 2s ease-in;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
